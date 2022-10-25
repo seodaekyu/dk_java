@@ -19,6 +19,7 @@ public class gitgitMoon {
 		
 		Figure s1 = new Figure();
 		Figure s2 = new Figure();
+		Figure s3 = new Figure();
 		
 		s1.side = 3;
 		
@@ -35,5 +36,8 @@ public class gitgitMoon {
 		System.out.println(s1.isTriangle());
 		
 		System.out.println(s1.sumInternalAngle());
+		
+		s3.side = 2;
+		System.out.println(s3.sumAngle());
 	}
 }

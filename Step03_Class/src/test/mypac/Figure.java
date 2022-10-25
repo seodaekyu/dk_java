@@ -35,5 +35,13 @@ public class Figure {
 			System.out.println("error");
 			return 0;	
 	}
-		
+		// 180×(n-2)  만약에 2각형일때?
+	public int sumAngle() {
+		if(side <= 2) {
+			System.out.println("2각형은 없어");
+			return 0;
+		}else {
+			return 180*(side-2);
+		}
+	}
 }
