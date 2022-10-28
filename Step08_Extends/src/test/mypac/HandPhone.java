@@ -5,7 +5,7 @@ package test.mypac;
  */
 
 public class HandPhone extends Phone{ // 핸드폰은 폰을 상속받은 것, 어떠한 클래스도 상속받지않으면 Object 클래스가 자동 상속 됨
-	
+	// 생성자
 	public HandPhone() {
 		System.out.println("HandPhone 생성자 호출됨");
 	}

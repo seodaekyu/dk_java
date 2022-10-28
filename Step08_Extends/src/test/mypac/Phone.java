@@ -4,7 +4,6 @@ package test.mypac;
 
 public class Phone {
 	// 생성자
-	
 	public Phone() {
 		System.out.println("Phone 생성자 호출됨");
 	}
