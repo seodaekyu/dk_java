@@ -29,6 +29,7 @@ public class MainClass05 {
 	
 	
 	public static void main(String[] args) {
+		// 메소드 호출하면서 static 필드에 미리 준비된 값을 전달
 		useWeapon(w1);
 		// Anonymous Local Inner Class 를 이용해서 Weapon type 의 참조 값 얻어내기
 		Weapon w2 = new Weapon() {
@@ -37,9 +38,9 @@ public class MainClass05 {
 				System.out.println("공격공격!");
 			}
 		};
-		
+		// 메소드 호출하면서 지역변수에 미리 준비된 값을 전달하기
 		useWeapon(w2);
-		
+		// 메소드 호출하면서 값을 즉석에서 만들어 전달하기
 		useWeapon(new Weapon() {
 
 			@Override
