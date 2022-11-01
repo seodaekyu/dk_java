@@ -2,6 +2,7 @@ package test.main;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class QuizMain {
 	public static void main(String[] args) {
@@ -21,8 +22,18 @@ public class QuizMain {
 		 * 	gura 는 목록에 없습니다.
 		 */
 		
-		
-		
+		Scanner scan = new Scanner(System.in); 
+	      System.out.print("검색할 단어를 입력하세요:");
+	      String word = scan.nextLine();
+	      //입력받은 단어를 Map 의 key 값으로 활용해서 value 값을 읽어와 본다. 
+	      //해당 key 값으로 저장된 value 가 없을수도 있다...
+	      String mean = dic.get(word);
+	      if(mean == null) {//만일 찾는 단어가 없으면
+	         System.out.println(word+" 는 목록에 없습니다.");
+	      }else {//찾는 단어가 있으면
+	         System.out.println(word+" 의 뜻은 "+mean+"입니다.");
+	      }
+
 		
 	}
 }
