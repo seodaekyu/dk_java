@@ -23,7 +23,7 @@ public class MyFrame extends JFrame implements ActionListener{
 		
 		//객체 생성해서 참조 값을 필드에 저장
 		JButton sendBtn = new JButton("전송");
-		add(sendBtn);
+		this.add(sendBtn);
 		// 버튼에 액션 command를 설정
 		sendBtn.setActionCommand("send");
 		
