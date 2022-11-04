@@ -49,13 +49,13 @@ public class MyFrame extends JFrame implements ActionListener{
 		System.out.println("카운트 다운을 시작 합니다.");
 		
 		// Runnable 인터페이스를 구현한 클래스로 객체를 생성해서 
-		//Runnable r = new CountRunnable();
+		// Runnable r = new CountRunnable();
 		// Thread 객체를 생성하면서 인자로 전달
-		//Thread t=new Thread(r);
+		// Thread t=new Thread(r);
 		// Thread 객체의 start() 메소드를 호출해서 새로운 스레드 시작 시키기
-		//t.start();
+		// t.start();
 		
-		//위의 3줄을 한줄로 작성하면
+		// 위의 3줄을 한줄로 작성하면
 		new Thread(new CountRunnable()).start();
 	}
 	

@@ -37,9 +37,9 @@ public class MyFrame extends JFrame implements ActionListener{
 		setVisible(true);
 	}
 	
-	//run 했을때 실행의 흐름이 시작되는 특별한 메소드 
+	// run 했을때 실행의 흐름이 시작되는 특별한 메소드 
 	public static void main(String[] args) {
-		//MyFrame 객체 생성하기
+		// MyFrame 객체 생성하기
 		new MyFrame("나의 프레임");
 	}
 
