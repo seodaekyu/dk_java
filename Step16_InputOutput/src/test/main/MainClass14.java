@@ -32,7 +32,7 @@ public class MainClass14 {
 		}finally {
 			// 마무리 작업을 해줘야 된다.
 			try {
-				// 단는 작업은 열린 순서의 역순으로 하면 좋다.
+				// 닫는 작업은 열린 순서의 역순으로 하면 좋다.
 				if(br!=null)br.close();
 				if(br!=null)fr.close();
 			}catch(Exception e) {
