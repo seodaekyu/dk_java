@@ -10,7 +10,7 @@ public class MemberDto {
 	public MemberDto() {}
 
 	public MemberDto(int num, String name, String addr) {
-		super();
+		//super();
 		this.num = num;
 		this.name = name;
 		this.addr = addr;

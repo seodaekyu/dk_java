@@ -58,10 +58,13 @@ public class MainClass01 {
 	    	  while(rs.next()) {
 	    		  // 현재 cursor 가 위치한 곳에서 num 이라는 칼럼의 정수 얻어내기
 	    		  int num = rs.getInt("num");
+	    		  
 	    		  // 현재 cursor 가 위치한 곳에서 name 이라는 칼럼의 문자열 얻어내기
 	    		  String name = rs.getString("name");
+	    		  
 	    		  // 현재 cursor 가 위치한 곳에서 addr 이라는 칼럼의 문자열 얻어내기
 	    		  String addr = rs.getString("addr");
+	    		  
 	    		  // 콘솔창에 출력해보기
 	    		  System.out.println(num+" | "+name+" | "+addr);
 	    	  }

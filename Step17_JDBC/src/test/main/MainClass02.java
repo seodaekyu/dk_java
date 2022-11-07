@@ -17,7 +17,7 @@ import java.sql.ResultSet;
 
 public class MainClass02 {
 	public static void main(String[] args) {
-		// member 테이블에 추가할 회언의 정보라고 가정
+		// member 테이블에 추가할 회원의 정보라고 가정
 		int num=4;
 		String name = "주댕이";
 		String addr = "봉천동";
